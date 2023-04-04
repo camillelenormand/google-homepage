@@ -188,3 +188,13 @@ button:focus {
   text-decoration: none;
   color: #999da2;
 }
+
+/* Dark mode */
+
+@media (prefers-color-scheme: dark) {
+  /* Dark theme styles go here */
+}
+
+@media (prefers-color-scheme: light) {
+  /* Light theme styles go here */
+}
