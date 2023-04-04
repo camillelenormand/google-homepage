@@ -40,7 +40,6 @@ li a {
 }
 
 a {
-  color: rgba(0, 0, 0, .87);
   text-decoration: none;
   cursor: pointer;
 }
@@ -56,6 +55,11 @@ a {
 .gmail,
 .images {
   margin-top: 0.5em;
+}
+
+.gmail-link,
+.images-link {
+  color: rgba(0, 0, 0, .87);
 }
 
 .hamburger {
@@ -96,12 +100,13 @@ a {
   margin-top: 8em;
 }
 
-.search-input:hover{
+.search-input:hover {
   box-shadow: 1px 1px 8px 1px #dcdcdc;
 }
-.search-input:focus-within{
+
+.search-input:focus-within {
   box-shadow: 1px 1px 8px 1px #dcdcdc;
-  outline:none;
+  outline: none;
 }
 
 .button-container {
@@ -127,34 +132,27 @@ button {
   cursor: pointer;
 }
 
-button:hover{
+button:hover {
   border: 1px solid #c8c8c8;
-  color:#3c4043;
+  color: #3c4043;
 }
-button:focus{
-  border:1px solid #3c4043;
+
+button:focus {
+  border: 1px solid #3c4043;
+}
+
+.micro, .camera {
+  height: 20px;
+  position: relative;
+  bottom: 35px;
+  right: -500px;
 }
 
 .magnifying-glass {
-  position: relative;
-  top: 5px;
-  left: -550px;
-  width: 20px;
-  height: 20px;
-}
-
-.micro {
   height: 20px;
   position: relative;
-  top: 5px;
-  left: -80px;
-}
-
-.camera {
-  height: 20px;
-  position: relative;
-  top: 5px;
-  left: -80px;
+  bottom: 35px;
+  right: -15px;
 }
 
 .language-switch {
