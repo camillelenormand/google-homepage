@@ -1,0 +1,145 @@
+head {
+  display: none;
+}
+
+html,
+body {
+  min-width: 400px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+input {
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  color: #202124;
+}
+
+body {
+  background: #fff;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar-wrapper {
+  float: right;
+}
+
+.profile-picture {
+  border-radius: 100px;
+}
+
+.gmail,
+.images {
+  margin-top: 0.5em;
+}
+
+.hamburger {
+  margin-top: 0.3em;
+}
+
+.google-logo-container {
+  height: 650px;
+  position: relative;
+  align-items: center;
+
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+#logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.search {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.search-input {
+  width: 40em;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  height: 44px;
+  margin-top: 10em;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  padding-top: 1em;
+}
+
+button {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+#language-switch {
+  color: #4d5156;
+  display: flex;
+  justify-content: center;
+  line-height: 28px;
+  padding-bottom: -100em;
+  flex-grow: 1;
+
+}
+
+.country {
+  padding: 15px 30px;
+  border-bottom: 1px solid #dbe1e5;
+  font-size: 15px;
+  color: #9aa0a6;
+}
+
+#links-container {
+  display: flex;
+  color: #70757a;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.links {
+  display: block;
+  padding: 15px;
+  white-space: nowrap;
+  text-decoration: none;
+  color: #999da2;
+}
